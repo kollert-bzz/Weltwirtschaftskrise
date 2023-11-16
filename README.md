@@ -1,2 +1,2 @@
-# Weltwirschaftskriese
+#Weltwirtschaftskrise
 Bitte eine 6
