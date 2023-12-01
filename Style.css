@@ -1,0 +1,28 @@
+body{
+    background: #444140;
+    color: #F7EBE8;
+    margin: clamp(1rem, 4rem, 5rem);
+}
+
+.picture{
+    width: 40%;
+}
+
+.button{
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+#menu{
+    justify-content: center;
+}
+
+#map{
+    width: 100%;
+    height: auto;
+    left: auto;
+    right: auto;
+}
+
