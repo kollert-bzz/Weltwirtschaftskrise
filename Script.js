@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function (){
     console.log("loaded")
     ButtonPos()
 })
-
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
 window.addEventListener("resize", ButtonPos)
 function ButtonPos(){
     const map = document.getElementById("menu")

@@ -1,7 +1,7 @@
 body{
     background: #444140;
     color: #F7EBE8;
-    margin: clamp(1rem, 4rem, 5rem);
+    margin: clamp(1rem, 2rem, 2rem);
 }
 
 .picture{
