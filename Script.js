@@ -17,7 +17,6 @@ function ButtonPos(){
         let country = document.getElementById(`${countries[i]}`)
         country.style.top = `${posval.width * 0.5375  * multiplicatorh[i] + posval.top}px`;
         country.style.left = `${posval.width  * multiplicatorw[i] + posval.left}px`
-        country.style.background = "#9191e9"
         country.style.width = `${size}px`
         country.style.height = `${size}px`
         console.log(country)
