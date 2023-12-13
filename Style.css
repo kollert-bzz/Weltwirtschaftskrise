@@ -8,31 +8,6 @@
         height: 100%;
     }
 
-    .button{
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
-        background: #9191e9;
-    }
-
-
-
-    #menu{
-        justify-content: center;
-    }
-
-    #map{
-        width: 100%;
-        height: auto;
-        left: auto;
-        right: auto;
-    }
-
-    .Title{
-        text-decoration: none;
-        color: #f7ebe8;
-    }
-
     header{
         margin-bottom: 2rem;
         font-size: 4rem;
@@ -49,37 +24,27 @@
         letter-spacing: 0.063rem;
     }
 
-    .country-title-arg{
-
-    }
-
-    footer{
-        margin: auto;
-        width: 50%;
-        background-color: #242121;
-        padding: 1rem;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-    }
-
-    footer a{
+    .Title{
         text-decoration: none;
-        padding-right: 2em;
-        padding-left: 2em;
         color: #f7ebe8;
-        transition: 700ms ease;
-        font-variation-settings: "wght" 311;
-        border-right: #f7ebe8 solid 2px;
     }
 
-    .footer-l{
-        border-right: none;
+    .button{
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        background: #9191e9;
     }
 
+    #menu{
+        justify-content: center;
+    }
 
-    footer a:hover{
-        font-variation-settings: "wght" 582;
-        letter-spacing: 0.063rem;
+    #map{
+        width: 100%;
+        height: auto;
+        left: auto;
+        right: auto;
     }
 
 
@@ -101,39 +66,49 @@
     .pic2-us{
         border: none;
     }
+
+    footer{
+        margin: auto;
+        width: 50%;
+        background-color: #242121;
+        padding: 1rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    footer a{
+         text-decoration: none;
+         padding-right: 2em;
+         padding-left: 2em;
+         color: #f7ebe8;
+         transition: 700ms ease;
+         font-variation-settings: "wght" 311;
+         border-right: #f7ebe8 solid 2px;
+     }
+
+    .footer-l{
+        border-right: none;
+    }
+
+
+    footer a:hover{
+        font-variation-settings: "wght" 582;
+        letter-spacing: 0.063rem;
+    }
+
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1079px) {
     body{
         background: #2F2927;
         color: #F7EBE8;
-        margin: 0 10rem 0 10rem;
+        margin: 0 7rem 0 7rem;
         font-family: "Open Sans", sans-serif;
         text-align: center;
         height: 100%;
     }
 
-    .button{
-        border-radius: 50%;
-        display: inline-block;
-        position: absolute;
-        background: #9191e9;
-    }
-
-
-
-    #menu{
-        justify-content: center;
-    }
-
-    #map{
-        width: 100%;
-        height: auto;
-        left: auto;
-        right: auto;
-    }
-
     .Title{
         text-decoration: none;
         color: #f7ebe8;
@@ -155,8 +130,43 @@
         letter-spacing: 0.063rem;
     }
 
-    .country-title-arg{
+    .button{
+        border-radius: 50%;
+        display: inline-block;
+        position: absolute;
+        background: #9191e9;
+    }
 
+
+
+    #menu{
+        justify-content: center;
+    }
+
+    #map{
+        width: 100%;
+        height: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .background-text{
+        margin: 2rem auto 2rem auto;
+        font-size: 1.6rem;
+        padding: 0.3rem;
+        text-space: 2rem;
+        width: 70%;
+    }
+
+
+    .pic{
+        width: 100%;
+        border: #242121 0.5rem solid;
+        border-radius: 1rem;
+    }
+
+    .pic2-us{
+        border: none;
     }
 
     footer{
@@ -187,25 +197,4 @@
         font-variation-settings: "wght" 582;
         letter-spacing: 0.063rem;
     }
-
-
-    .background-text{
-        margin: 2rem auto 2rem auto;
-        font-size: 1.6rem;
-        padding: 0.3rem;
-        text-space: 2rem;
-        width: 70%;
-    }
-
-
-    .pic{
-        width: 100%;
-        border: #242121 0.5rem solid;
-        border-radius: 1rem;
-    }
-
-    .pic2-us{
-        border: none;
-    }
-
 }
