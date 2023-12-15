@@ -1,6 +1,6 @@
 @media screen and (min-width: 1700px){
     body{
-        background: #2F2B2A;
+        background: #1C1B1A;
         color: #F7EBE8;
         margin: 0 10rem 0 10rem;
         font-family: "Open Sans", sans-serif;
@@ -89,9 +89,9 @@
 }
 
 
-@media screen and (max-width: 1618px) {
+@media screen and (max-width: 1699px) {
     body{
-        background: #2F2927;
+        background: #1C1B1A;
         color: #F7EBE8;
         margin: 0 3rem 0 3rem;
         font-family: "Open Sans", sans-serif;
